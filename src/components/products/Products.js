@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs";
 import AddSection from "./AddSection";
+import { FaArrowLeft } from "react-icons/fa6";
+
+
 import "./Products.css";
+import { Link } from "react-router-dom";
 
 const Products = ({ products, setProducts }) => {
   const [showAddSection, setShowAddSection] = useState(false);
@@ -34,7 +38,13 @@ const Products = ({ products, setProducts }) => {
 
   return (
     <div className="container">
-      <h1>Products Management</h1>
+      
+      <div className="product-text">
+      <Link to="/">
+        <FaArrowLeft className="arrow-icon" style={{height:"2rem", width:"2rem"}}/>
+      </Link>
+        <span>Products Management</span>
+      </div>
       <div className="product-list">
         <table className="table">
           <thead>
