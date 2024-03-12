@@ -12,11 +12,10 @@ const AddSection = ({ closeSection, onSubmit, defaultValue }) => {
   );
   const [errors, setErrors] = useState("");
 
-  // console.log(defaultValue)
   const handleChange = (e) => {
     console.log("handlechnge");
     const { name, value } = e.target;
-    // console.log(e.target.name)
+  
     setNewProduct({
       ...newProduct,
       [name]:

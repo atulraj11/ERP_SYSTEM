@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.8); /* Lighter white background with transparency */
+    background: rgba(255, 255, 255, 0.8); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #fff; /* White background */
+    background: #fff; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -25,21 +25,21 @@
 }
 
 .order-view-edit p {
-    margin: 0.8rem 0; /* Increased white space between paragraphs */
+    margin: 0.8rem 0;
     font-size: 1rem;
     color: #666;
 }
 
 .order-view-edit h3 {
     margin: 0;
-    font-size: 1.3rem; /* Slightly larger font size for Order ID */
+    font-size: 1.3rem; 
     color: #333;
-    font-weight: bold; /* Make Order ID bold for prominence */
+    font-weight: bold; 
 }
 
 
 .order-view-edit select {
-    margin-top: 1rem; /* Increased white space above select */
+    margin-top: 1rem; 
     width: 100%;
     padding: 0.6rem;
     border: 1px solid #ccc;
@@ -54,11 +54,11 @@
     border-radius: 4px;
     cursor: pointer;
     display: flex;
-    align-items: center; /* Center button text and icon */
+    align-items: center; 
 }
 
 .order-view-edit button svg {
-  margin-left: 10px; /* Add spacing between text and icon */
+  margin-left: 10px; 
 }
 
 .cross-icon {

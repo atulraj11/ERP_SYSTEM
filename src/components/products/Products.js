@@ -28,8 +28,7 @@ const Products = ({ products, setProducts }) => {
             }
             return newProduct;
           })
-          // console.log(updatedProducts);
-          // return updatedProducts;
+          
         );
   };
 

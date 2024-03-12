@@ -8,7 +8,6 @@
 
 .product-list {
     margin-top: 2rem;
-    /* width: 100%; */
   }
   
  .table {
@@ -89,7 +88,3 @@
   .delete-product-btn{
     color: #f44336;
   }
-
-  /* .edit-button{
-    color: ;
-  } */
