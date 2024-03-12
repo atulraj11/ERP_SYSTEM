@@ -1,0 +1,118 @@
+/* OrderCard.css */
+
+.order-card {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.order-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-card h3 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.order-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.status-Shipped,
+.status-Delivered,
+.status-Cancelled {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.statuss-Shipped {
+  /* background-color: #; */
+  color: #D6B300;
+  /* border-radius: 1rem ; */
+}
+
+.statuss-Delivered {
+  color: #4caf50;
+  /* border-radius: 1rem ; */
+}
+
+.statuss-Cancelled {
+  /* background-color: ; */
+  color: #f44336;
+  /* border-radius: 1rem ; */
+}
+
+.order-card button {
+  margin-top: 10px;
+  cursor: pointer;
+  /* background-color: #007bff; */
+  color: #fff;
+  width: 7rem;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.order-card button:hover {
+  opacity: 0.8; /* Semi-transparent effect on button hover */
+}
+
+.order-card select {
+  margin-top: 10px;
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.order-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Style for the 'View Details' button when it is active */
+/* .order-card button {
+  background-color: #007bff;
+}
+
+.order-card button:hover {
+  background-color: #0056b3;
+} */
+
+.btn-group{
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+  margin-top: 1rem;
+}
+.view-btn{
+  background-color: #007bff;
+}
+
+.view-btn:hover{
+  background-color: #0056b3;
+}
+
+.delete-btn{
+  background-color: #ee3425;
+}
+
+.delete-btn:hover{
+  background-color: #f44336;
+}
+
+.update-btn{
+  width: 60% !important;
+  align-items: center ;
+  justify-content: center;
+}
