@@ -9,18 +9,18 @@ const Dashboard = ({ totalOrders, totalProducts }) => {
     <div className="dashboard">
       <h1>Dashboard</h1>
       <div className="metric-card">
-        <div>
+        <div className="metric-value-left">
           <h2>Total Products</h2>
-          <div className="metric-value metric-value-left">
+          <div className="metric-value ">
             <Link to="/products">
               <span className="metric-value">{totalProducts}</span>
               <FaBox className="metric-icon" />
             </Link>
           </div>
         </div>
-        <div>
+        <div className="metric-value-right">
           <h2>Total Orders</h2>
-          <div className="metric-value metric-value-right">
+          <div className="metric-value">
             <Link to="/orders">
               <span className="metric-value">{totalOrders}</span>
               <FaShoppingCart className="metric-icon" />
@@ -30,18 +30,18 @@ const Dashboard = ({ totalOrders, totalProducts }) => {
       </div>
 
       <div className="metric-card">
-        <div>
+        <div className="metric-value-left">
           <h2>Sales Revenue</h2>
-          <div className="metric-value metric-value-left">
+          <div className="metric-value ">
             <Link to="/">
               <span className="metric-value">$10,000</span>
               <FaMoneyBillAlt className="metric-icon" />
             </Link>
           </div>
         </div>
-        <div>
+        <div className="metric-value-right">
           <h2>Average Order Value</h2>
-          <div className="metric-value metric-value-right">
+          <div className="metric-value">
             <Link to="/">
               <span className="metric-value">$200</span>
               <RiMoneyDollarCircleLine className="metric-icon" />

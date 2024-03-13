@@ -32,7 +32,6 @@ const OrderView = ({ order, updateOrderStatus, closeSection }) => {
           <option value="Shipped">Shipped</option>
           <option value="Delivered">Delivered</option>
           <option value="Cancelled">Cancelled</option>
-          {/* Add more status options as needed */}
         </select>
         <button  className="btn update-btn" onClick={handleUpdateStatus}>Update Status</button>
       </div>

@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .container-inside-order a{
@@ -46,11 +47,6 @@
     .container-inside-order{
       justify-content: center;
     }
-
-    /* .orders-list {
-      flex-direction: column;
-      align-items: center;
-    } */
     
   }
 
@@ -81,12 +77,9 @@
   }
 
   .pagination button:hover {
-    background-color: #d9534f; /* Darker purple on hover */
+    background-color: #d9534f; 
   }
   
-  /* .pagination button:hover {
-    background-color: #0056b3;
-  } */
   
   .pagination button.active {
     background-color: #d9534f;
