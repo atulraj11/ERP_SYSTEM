@@ -51,16 +51,22 @@ The ERP System Frontend is a web application designed to manage basic business o
 
 **Screenshots:**
 
-- **Desktop**
+- **Desktop View**
 
+Dashboard
 ![Dashboard](./Screenshots/Desktop-view/Dashboard-Desktop.png)
+Product Management (Pagination is also added)
 ![Product Management (Pagination is also added)](./Screenshots/Desktop-view/Product-Desktop.png)
+Add Product Modal
 ![Add Product Modal](./Screenshots/Desktop-view/Product-add-Desktop.png)
+Edit Product Modal
 ![Edit Product Modal](./Screenshots/Desktop-view/Product-edit-Desktop.png)
+Order Management (Pagination is also added)
 ![Order Management (Pagination is also added)](./Screenshots/Desktop-view/Order-Desktop.png)
+View Order Details Modal
 ![View Order Details Modal](./Screenshots/Desktop-view/Order-View-Desktop.png)
 
-- **Mobile**
+- **Mobile View**
 
 ![Dashboard](./Screenshots/Mobile-view/Dashboard-Mobile.png)
 ![Product Management](./Screenshots/Mobile-view/Product-Mobile.png)
